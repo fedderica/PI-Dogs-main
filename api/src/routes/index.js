@@ -6,9 +6,9 @@ const { DataTypes, UUID } = require('sequelize');
 require('dotenv').config();
 const axios = require('axios');
 const { Dog, Temperament } = require('../db');
-const cors = require("cors");
 
-router.use (cors({origin:"http://localhost:3000", credentials: true}));
+
+
 
 const router = Router();
 
